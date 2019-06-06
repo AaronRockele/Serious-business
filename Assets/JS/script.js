@@ -53,9 +53,9 @@ function renderTime() {
     
     if (curHr < 9) {
         document.getElementById("display").innerHTML = "Closed"
-    } else if (curHr < 17) {
+    } else if (curHr > 9) {
         document.getElementById("display").innerHTML = "Open"
-    } else {
+    } else if (curHr > 10) {
         document.getElementById("display").innerHTML = "Closed"
     }
 
