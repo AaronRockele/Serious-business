@@ -46,3 +46,17 @@ function renderTime() {
 }
 
     renderTime();
+
+    var today = new Date()
+    var curHr = today.getHours()
+   
+    
+    if (curHr < 9) {
+        document.getElementById("display").innerHTML = "Closed"
+    } else if (curHr < 17) {
+        document.getElementById("display").innerHTML = "Open"
+    } else {
+        document.getElementById("display").innerHTML = "Closed"
+    }
+
+    

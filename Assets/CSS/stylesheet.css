@@ -53,3 +53,11 @@ table {
       text-align: center;
   }
 
+  .open {
+      position: relative;
+      font-size: 2em;
+      text-align: center;
+      top: 35%;
+
+  }
+
